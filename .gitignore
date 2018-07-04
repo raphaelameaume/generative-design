@@ -1,0 +1,20 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+error_log
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+
+.DS_Store
+._*
+Thumbs.db
+
+npm-debug.log
+node_modules
