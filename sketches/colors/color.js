@@ -7,10 +7,6 @@ export const dimensions = PaperSize.LETTER;
 export default function createPlot (context, dimensions) {
     const [ width, height ] = dimensions;
     
-    const lineCount = 20;
-    const segments = 500;
-    const radius = 2;
-
     const mouse = { x: 0, y: 0 };
 
     const canvas = document.querySelector('canvas');
