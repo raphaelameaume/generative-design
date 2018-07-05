@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raphaelameaume/generative-design.git"
   },
   "author": "Raphaël Améaume",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "color": "^3.0.0"
+  }
 }
