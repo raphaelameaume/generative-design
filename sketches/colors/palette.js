@@ -22,8 +22,8 @@ const createRandomColors = ( count ) => {
 export default function createPlot (context, dimensions) {
     const [ width, height ] = dimensions;
 
-    const maxSize = 50;
-    const minSize = 45;
+    const maxSize = 200;
+    const minSize = 4;
 
     let tileCountX = Math.floor(Math.random() * maxSize + minSize);
     let tileCountY = Math.floor(Math.random() * maxSize + minSize);
