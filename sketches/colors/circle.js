@@ -1,7 +1,6 @@
 import { PaperSize, Orientation } from 'penplot';
 import Color from 'color';
 
-
 export const orientation = Orientation.LANDSCAPE;
 export const dimensions = PaperSize.LETTER;
 
