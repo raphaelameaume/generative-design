@@ -32,8 +32,8 @@ export default function createPlot (context, dimensions) {
 
         context.clearRect(0, 0, width, height);
 
-        const stepX = mouse.x * 1 + 0.5;
-        const stepY = mouse.y * 1 + 0.5;
+        const stepX = mouse.x + 0.2;
+        const stepY = mouse.y + 0.2;
 
         for ( let gridY = 0; gridY < height; gridY += stepY ) {
             for ( let gridX = 0; gridX < width; gridX += stepX ) {
